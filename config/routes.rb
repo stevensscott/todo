@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  #Mike Was Here
   #JAMAAL WAZ HUR
 end
