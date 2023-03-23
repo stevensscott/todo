@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   #JAMAAL WAZ HUR
   #bruh
   #bruh part2 hhhhh
+  #slapmyhams
 end
