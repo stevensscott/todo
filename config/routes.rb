@@ -7,6 +7,5 @@ Rails.application.routes.draw do
   #Mike Was Here
   #JAMAAL WAZ HUR
   #bruh
-  #bruh part2 hhhhh
-  #slapmyhams
+  #LIGMA
 end
