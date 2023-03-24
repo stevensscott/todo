@@ -6,9 +6,9 @@ Rails.application.routes.draw do
   #Marlo Boyer
   #Mike Was Here
   #JAMAAL WAZ HUR
+  #I am hungry!
   #bruh
-  #bruh part2 hhhhh
-  #slapmyhams
+  #LIGMA
 
   post "/users" => "user#create"
 end
