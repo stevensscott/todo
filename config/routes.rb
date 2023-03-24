@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   #bruh
   #bruh part2 hhhhh
   #slapmyhams
+
+  post "/users" => "user#create"
 end
