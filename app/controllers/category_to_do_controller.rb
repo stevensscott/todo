@@ -1,0 +1,2 @@
+class CategoryToDoController < ApplicationController
+end

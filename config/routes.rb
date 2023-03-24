@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   #I am hungry!
   #bruh
   #LIGMA
+
+  post "/users" => "user#create"
 end
