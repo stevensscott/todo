@@ -8,3 +8,34 @@ Content-Type: application/json
 "password": "password",
 "password_confirmation": "password"
 }
+
+### Todos Create
+POST http://localhost:3000/to_do.json
+Content-Type: application/json
+
+{
+"user_id": 1,
+"title": "Do dishes",
+"description": "Washes dishes by hand",
+"deadline": "Tonight",
+"completed": "false"
+}
+
+### Category Create
+POST http://localhost:3000/category.json
+Content-Type: application/json
+
+{
+"name": "Chores"
+}
+
+### Users Create
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+"name" : "test users",
+"email": "test1@test.com",
+"password": "password",
+"password_confirmation": "password"
+}
