@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   #I am hungry!
   #bruh
   #LIGMA
- 
+
   resources :to_do
 
   resources :category
