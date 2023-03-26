@@ -14,4 +14,5 @@ Rails.application.routes.draw do
   get "/signup" => "user#new"
   post "/users" => "user#create"
   post "/sessions" => "sessions#create"
+  resources :category
 end
