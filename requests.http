@@ -32,15 +32,12 @@ Content-Type: application/json
 "name": "Chores"
 }
 
-### Users Create
-POST http://localhost:3000/users.json
+### CategoryToDo Create
+POST http://localhost:3000/category_to_dos.json
 Content-Type: application/json
 
-{
-"name" : "test users",
-"email": "test1@test.com",
-"password": "password",
-"password_confirmation": "password"
+{ "category_id":1,
+"todo_id": 1
 }
 
 ### Sessions Create
