@@ -9,7 +9,9 @@ Rails.application.routes.draw do
   #I am hungry!
   #bruh
   #LIGMA
- 
-  resources :to_do
 
+  resources :to_do
+  get "/signup" => "user#new"
+  post "/users" => "user#create"
+  post "/sessions" => "sessions#create"
 end
