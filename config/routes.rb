@@ -11,8 +11,8 @@ Rails.application.routes.draw do
   #LIGMA
 
   resources :to_do
-  get "/signup" => "user#new"
-  post "/users" => "user#create"
-  post "/sessions" => "sessions#create"
+
   resources :category
+
+  post "/category_to_do" => "category_to_do#create"
 end
