@@ -1,3 +1,5 @@
+@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzk5MjgyOTN9.0vNMvApqHAkZx4wJKIjhok4mG6Ep12pTqFV-4vB_l8o
+
 ### Users Create
 POST http://localhost:3000/users.json
 Content-Type: application/json
@@ -12,6 +14,7 @@ Content-Type: application/json
 ### Todos Create
 POST http://localhost:3000/to_do.json
 Content-Type: application/json
+Authorization: Bearer {{jwt}}
 
 {
 "user_id": 1,
@@ -38,4 +41,13 @@ Content-Type: application/json
 "email": "test1@test.com",
 "password": "password",
 "password_confirmation": "password"
+}
+
+### Sessions Create
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+"email": "test1@test.com",
+"password": "password"
 }
