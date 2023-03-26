@@ -12,4 +12,7 @@ Rails.application.routes.draw do
  
   resources :to_do
 
+  resources :category
+
+  post "/category_to_do" => "category_to_do#create"
 end

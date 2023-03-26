@@ -15,18 +15,24 @@ Content-Type: application/json
 
 {
 "user_id": 1,
-"title": "Do dishes",
+"title": "Do Dishes",
 "description": "Washes dishes by hand",
 "deadline": "Tonight",
 "completed": "false"
 }
+
+###ToDo Update
+PATCH http://localhost:3000/to_do/1.json
+Content-Type: application/json
+
+{"completed": "Completed!"}
 
 ### Category Create
 POST http://localhost:3000/category.json
 Content-Type: application/json
 
 {
-"name": "Chores"
+"name": "House Work"
 }
 
 ### Users Create
@@ -39,3 +45,11 @@ Content-Type: application/json
 "password": "password",
 "password_confirmation": "password"
 }
+
+### Category To Do Create
+
+POST http://localhost:3000/category_to_do.json
+Content-Type: application/json
+
+{"category_id": 2,
+ "todo_id": 1}
