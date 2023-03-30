@@ -11,6 +11,13 @@ Content-Type: application/json
 "password_confirmation": "password"
 }
 
+### Todos Index
+GET http://localhost:3000/to_do.json
+
+
+### Todos Show
+GET http://localhost:3000/to_do.json
+
 ### Todos Create
 POST http://localhost:3000/to_do.json
 Content-Type: application/json
