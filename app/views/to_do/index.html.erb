@@ -1,0 +1,6 @@
+<h1>To Do</h1>
+<% @to_dos.each do |to_do| %>
+  <h2><%= to_do.title %></h2>
+  <p>Title: <%= to_do.description %></p>
+  <p>Description:<%= to_do.deadline %></p>
+<% end %>
